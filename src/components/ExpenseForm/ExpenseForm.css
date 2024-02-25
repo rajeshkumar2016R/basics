@@ -1,0 +1,42 @@
+.expense-form{
+    background: orangered;
+    width: 540px;
+    margin-bottom: 20px;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+
+.expense-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.expense-input-form{
+    display: flex;
+}
+.expense-input label{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.expense-input input{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 4px;
+    width: 160px;
+    outline: none;
+    border: none;
+}
+.form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.expense-btn{
+    background: white;
+    color: orangered;
+    font-weight: 700;
+}

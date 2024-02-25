@@ -1,0 +1,73 @@
+
+.expense-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+    width: 750px;
+}
+
+.expense-item_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color:honeydew;
+}
+.expense-item_side{
+    display: flex;
+    align-items: center;
+}
+.expense-item_side h2{
+    width: 240px;
+}
+.expense-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(28, 71, 72);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+}
+.expense-item_side h2{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.expense-item_price{
+    background-color: rgb(28, 71, 72);
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+.change-text{
+    margin-left: 30px;
+    background-color: rgb(140, 194, 194);
+    border-radius: 5px;
+}
+.change-text input{
+    padding: 9px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+}
+button{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
